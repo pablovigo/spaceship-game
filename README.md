@@ -2,24 +2,24 @@
 
 ## Descripció
 
-"SpaceShip Game" és un joc senzill desenvolupat amb Pygame, en què el jugador controla una caixa que ha d'esquivar blocs que cauen del cel. 
-L'objectiu del joc és sobreviure el màxim temps possible mentre s'eviten els blocs i s'acumula puntuació.
+"SpaceShip Game" és un joc senzill desenvolupat amb Pygame, en què el jugador controla una nau que ha d'esquivar naus enemigues que cauen del cel. 
+L'objectiu del joc és sobreviure el màxim temps possible mentre s'eviten col·lions i s'acumula puntuació.
 
 ## Característiques
 
 - **Controls:** 
-  - Mou la caixa del jugador a l'esquerra i a la dreta utilitzant les tecles de fletxa esquerra i dreta.
-  - El jugador ha d'evitar els blocs que cauen.
+  - Mou la nau del jugador a l'esquerra i a la dreta utilitzant les tecles de fletxa esquerra i dreta.
+  - El jugador ha d'evitar les naus que cauen.
 
-- **Blocs Enemics:**
-  - Els blocs cauen des de la part superior de la pantalla a una velocitat aleatòria.
-  - Si un bloc arriba a la part inferior de la pantalla, s'elimina i el jugador guanya un punt.
+- **Naus Enemigues:**
+  - Les naus cauen des de la part superior de la pantalla a una velocitat aleatòria.
+  - Si una nau arriba a la part inferior de la pantalla, s'elimina i el jugador guanya un punt.
 
 - **Col·lisions:**
-  - Si la caixa del jugador col·lisiona amb un bloc, el joc acaba.
+  - Si la nau del jugador col·lisiona amb una altra nau, el joc acaba.
 
 - **Puntuació:**
-  - La puntuació s'incrementa cada vegada que un bloc cau sense colisionar amb el jugador.
+  - La puntuació s'incrementa cada vegada que una nau cau sense colisionar amb el jugador.
 
 ## Requisits
 
@@ -30,7 +30,7 @@ L'objectiu del joc és sobreviure el màxim temps possible mentre s'eviten els b
 
 1. Clona aquest repositori:
   ```
-  git clone https://github.com/tu_usuari/esquiva-els-blocs-que-cauen.git
+  git clone https://github.com/pablovigo/spaceship-game.git
   cd spacehip-game
   ```
 
@@ -43,12 +43,6 @@ L'objectiu del joc és sobreviure el màxim temps possible mentre s'eviten els b
   ```
   python main.py  # O el nom del fitxer on està el codi
   ```
-
-## Ús
-
-Al iniciar el joc, controla la caixa negra (jugador) movent-la d'esquerra a dreta.
-Esquiva els blocs vermells que cauen.
-Intenta obtenir la màxima puntuació possible evitant colisions.
 
 ## Contribucions
 
