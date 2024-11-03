@@ -17,9 +17,9 @@ white = (255, 255, 255)
 clock = pygame.time.Clock()
 
 # Carrega les imatges
-background_image = pygame.image.load("background.png")
-player_image = pygame.image.load("player_ship.png")
-enemy_image = pygame.image.load("enemy_ship.png")
+#background_image = pygame.image.load("images/background.png")
+player_image = pygame.image.load("images/player_ship.png")
+enemy_image = pygame.image.load("images/enemy_ship.png")
 
 # Classe del jugador (nau)
 class Player:
